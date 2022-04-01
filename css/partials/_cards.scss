@@ -1,0 +1,27 @@
+.card {
+    width: 25rem;
+    .card-title {
+        background: $color3;
+        color: $color4;
+        font-weight: 700;
+        font-size: 2em;
+    }
+    img {
+        width: 100%;
+        height: 15rem;
+    }
+    .card-body {
+        background: $color4;
+        .card-text {
+            font-size: 1.5em;
+            color: $color3;
+        }
+    }
+}
+
+.details-card {
+    width: 50%;
+    img {
+        height: 20rem;
+    }
+}

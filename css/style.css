@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  font-family: "Barlow", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: #013f3a;
+  background: #E8DCD0;
+  font-size: 4vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn {
+  background: #f7941e;
+  border: 2px solid #f7941e;
+  color: #013f3a;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  background: none;
+  color: #013f3a;
+  border: 2px solid #f7941e;
+}
+
+.navbar {
+  height: 150px;
+  transition: 0.3s all ease-out;
+}
+.navbar .nav-logo {
+  width: 70px;
+  height: 70px;
+  transition: 0.3s all ease-out;
+}
+.navbar .navbar-nav {
+  font-size: 2em;
+}
+.navbar .navbar-nav .nav-item {
+  width: 160px;
+  margin: 0 10px;
+  text-align: center;
+}
+.navbar .navbar-nav .nav-item:hover {
+  background: #f7941e;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #013f3a !important;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+}
+.hero .hero-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.hero .hero-text {
+  position: absolute;
+  top: 5vw;
+  left: center;
+  background: #E8DCD0;
+  color: #013f3a;
+}
+.hero .hero-text h2 {
+  font-weight: 900;
+  font-size: 4vw;
+  text-transform: uppercase;
+}
+.hero .hero-text p {
+  font-size: 2vw;
+  letter-spacing: 0.5em;
+}
+
+.card {
+  width: 25rem;
+}
+.card .card-title {
+  background: #013f3a;
+  color: #E8DCD0;
+  font-weight: 700;
+  font-size: 2em;
+}
+.card img {
+  width: 100%;
+  height: 15rem;
+}
+.card .card-body {
+  background: #E8DCD0;
+}
+.card .card-body .card-text {
+  font-size: 1.5em;
+  color: #013f3a;
+}
+
+.details-card {
+  width: 50%;
+}
+.details-card img {
+  height: 20rem;
+}
+
+.footer-img {
+  width: 100%;
+}
+.footer-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.main-footer {
+  background: #013f3a;
+  width: 100%;
+  height: 20vh;
+  min-height: 180px;
+  color: #E8DCD0 !important;
+}
+.main-footer .social-headline {
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+}
+.main-footer .social-media {
+  width: 10%;
+}
+.main-footer .social-media .icon {
+  width: 30px;
+  height: 30px;
+}
+.main-footer .footer-text {
+  font-size: 1em;
+}
+
+.table-headline {
+  background: #013f3a;
+  color: #E8DCD0;
+}
+
+.adm-picture {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.add-btn {
+  font-size: 2em;
+}
+
+fieldset {
+  width: 50%;
+}
+
+.nav-admin {
+  background: #E8DCD0 !important;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

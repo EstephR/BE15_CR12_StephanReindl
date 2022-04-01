@@ -1,0 +1,28 @@
+.table-headline {
+    background: $color3;
+    color: $color4;
+}
+
+.adm-picture {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.add-btn {
+    font-size: 2em;
+}
+
+fieldset {
+    width: 50%;
+}
+
+.nav-admin {
+    background: $color4 !important;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+}

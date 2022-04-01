@@ -1,0 +1,25 @@
+.navbar {
+    height: 150px;
+    transition: 0.3s all ease-out;
+    .nav-logo {
+        width: 70px;
+        height: 70px;
+        transition: 0.3s all ease-out;
+    }
+    .navbar-nav {
+        font-size: 2em;
+        .nav-item {
+            width: 160px;
+            margin: 0 10px;
+            text-align: center;
+            &:hover {
+                background: $color1;
+            }
+            .nav-link {
+                color: $color3 !important;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: $color3;
+    background: $color4;
+    font-size: 4vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn {
+    background: $color1;
+    border: 2px solid $color1;
+    color: $color3;
+    font-weight: bold;
+    transition: 0.3s ease;
+    &:hover {
+        background: none;
+        color: $color3;
+        border: 2px solid $color1;
+    }
+}
