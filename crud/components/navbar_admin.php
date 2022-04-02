@@ -18,7 +18,10 @@
                 <a class="nav-link" href="admin.php">Admin</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="">API's</a>
+                <a class="nav-link" href="api/displayAll.php">GET API</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="showAll.php">Show API</a>
                 </li>
             </ul>
             </div>

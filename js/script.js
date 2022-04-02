@@ -20,3 +20,30 @@ function scrollFunction() {
         navFont.setAttribute("style", "font-size: 2em");
     }
 }
+
+//Retrieve API
+document.getElementById("btn-retrieve").addEventListener("click", retreiveData);
+
+function retreiveData() {
+    let url = "http://localhost:3000/BE15_CR12_StephanReindl/api/displayAll.php";
+    const request = new XMLHttpRequest();
+    request.open("GET", url);
+    request.onload = function() {
+        //get only the data with .data property
+        let result = JSON.parse(request.responseText).data;
+        for (value of result) {
+            document.getElementById("result").innerHTML += `<div class="card p-0 shadow border-0" data-aos="fade-up" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <h5 class="card-title m-0 p-3 text-center">${value.name}</h5>
+            <img src="img/${value.picture}" class="card-img-top rounded-0" alt="${value.name}">
+            <div class="card-body">
+                <p class="card-text">${value.description}</p>
+                <p class="card-text">Price: ${value.price} EUR</p>
+                <p class="card-text">Lat: ${value.latitude}</p>
+                <p class="card-text">Lng: ${value.longitude}</p>
+            </div>
+        </div>`
+        }
+    }
+    request.send();
+}
