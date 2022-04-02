@@ -76,7 +76,7 @@ mysqli_close($connect);
                 </tr>
                 <tr> 
                 <td></td>
-                    <td class="d-flex justify-content-center"><button class='btn btn-warning p-3 w-50' name="submit" type="submit">Add Destination</button></td>
+                    <td class="d-flex justify-content-center"><button class='btn btn-warning p-3' name="submit" type="submit">Add Destination</button></td>
                 </tr>
             </table>
         </form>

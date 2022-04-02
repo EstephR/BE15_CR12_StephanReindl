@@ -6,18 +6,21 @@ window.onscroll = function() { scrollFunction(); };
 let nav = document.getElementById("nav-main");
 let navLogo = document.getElementById("navbar-logo");
 let navFont = document.getElementById("nav-font");
+let navCollapse = document.getElementById("navbarNav");
 
 function scrollFunction() {
     if (document.documentElement.scrollTop > 50) {
         nav.setAttribute("style", "height: 100px; background: #E8DCD0 !important");
         navLogo.setAttribute("style", "height: 50px; width: 50px");
         navFont.setAttribute("style", "font-size: 1.5em");
+        navCollapse.setAttribute("style", "background: #E8DCD0 !important");
 
 
     } else {
         nav.setAttribute("style", "height: 150px; background: transparent !important");
         navLogo.setAttribute("style", "height: 70px; width: 70px");
         navFont.setAttribute("style", "font-size: 2em");
+        navCollapse.setAttribute("style", "background: transparent !important");
     }
 }
 

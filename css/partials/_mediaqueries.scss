@@ -1,0 +1,98 @@
+        @media screen and (max-width: $breakpoint-xl) {
+            .navbar-nav {
+                .nav-item {
+                    margin: 0 10px;
+                    text-align: start !important;
+                }
+            }
+            fieldset {
+                width: 100% !important;
+            }
+        }
+        
+        @media screen and (max-width: $breakpoint-l) {
+            .hero-text {
+                padding: 25px !important;
+                p {
+                    font-size: 3vw !important;
+                    margin-top: 10px !important;
+                }
+            }
+            .card-title {
+                font-size: 1.5em !important;
+            }
+            .card-text {
+                font-size: 1.2em !important;
+            }
+            #btn-retrieve,
+            .add-btn {
+                font-size: 1.5em !important;
+            }
+            .admin-table {
+                width: 100% !important;
+            }
+        }
+        
+        @media screen and (max-width: $breakpoint-m) {
+            .hero-text {
+                top: 2vw !important;
+                p {
+                    margin-top: 0 !important;
+                }
+            }
+            .nav-logo {
+                width: 50px !important;
+                height: 50px !important;
+            }
+            .card-title {
+                font-size: 1.2em !important;
+            }
+            .card-text {
+                font-size: 1em !important;
+            }
+            .main-footer {
+                .social-headline {
+                    font-size: 1em;
+                    letter-spacing: 0.2em;
+                }
+                .social-media {
+                    width: 30% !important;
+                    .icon {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+                .footer-text {
+                    font-size: 0.8em;
+                }
+            }
+        }
+        
+        @media screen and (max-width: $breakpoint-s) {
+            .hero-text {
+                padding: 15px !important;
+                h2 {
+                    font-size: 6vw !important;
+                }
+                p {
+                    font-size: 4vw !important;
+                }
+            }
+            .card-title {
+                font-size: 1em !important;
+            }
+            .card-text {
+                font-size: 0.8em !important;
+            }
+            h1 {
+                font-size: 5vw !important;
+            }
+            #btn-retrieve,
+            .add-btn {
+                font-size: 1em !important;
+            }
+            .adm-picture {
+                width: 70px;
+                height: 70px;
+            }
+        }

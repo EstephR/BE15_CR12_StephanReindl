@@ -88,7 +88,7 @@ mysqli_close($connect);
                     <input type="hidden" name="id" value="<?=$id ?>" />
                 </tr>    
                 <td></td>
-                    <td class="d-flex justify-content-center"><button class='btn btn-warning p-3 w-50' name="submit" type="submit">Change Data</button></td>
+                    <td class="d-flex justify-content-center"><button class='btn btn-warning p-3' name="submit" type="submit">Change Data</button></td>
                 </tr>
             </table>
         </form>
