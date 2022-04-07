@@ -28,7 +28,7 @@ function scrollFunction() {
 document.getElementById("btn-retrieve").addEventListener("click", retreiveData);
 
 function retreiveData() {
-    let url = "http://localhost:3000/BE15_CR12_StephanReindl/api/displayAll.php";
+    let url = "http://localhost:3000/api/displayAll.php";
     const request = new XMLHttpRequest();
     request.open("GET", url);
     request.onload = function() {
